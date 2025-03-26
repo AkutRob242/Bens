@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: hsl(50, 100%, 52%);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+
+  }
+  
+  .logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(201, 33, 33); /* Pinkish color for the logo */
+    font-family:cursive;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    flex-wrap: wrap;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #fa5290;
+  }
+
+  .fa-facebook{
+    font-size: 30px;
+    margin: 0 0 0 20px;
+    color: black;
+  }
+
+  .fa-facebook:hover{
+    color: #fa5290;
+  }
+
+
+.about-banner {
+    background-color: #c47a1b;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 20px;
+    background-image: url('aa.jpg'); /* Replace with your image file name */
+    background-size: cover;
+    background-position: center;
+}
+
+.about-banner h1 {
+    font-size: 36px;
+}
+
+.about-banner p {
+    font-size: 18px;
+    color: #666
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.image-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.text-container {
+    flex: 2;
+    padding: 50xpx;
+    max-width: 700px;
+}
+
+.text-container h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-container p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: lighter;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #666
+}
+
+
+.growth {
+    margin: 100px;
+}
+
+
+.growth h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+}
+
+.about p, .growth p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #666
+}
+
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.promo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    margin-bottom: 00px;
+    flex-wrap: wrap;
+}
+
+
+.promo-text img {
+    width: 450px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+.logo-display h1 {
+    color: #a00000;
+    font-size: 80px;
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 1px 20px;
+}
+
+footer {
+    background-color: #ffcc00;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h2, footer h3, footer p {
+    color: #a00000;
+    padding: 5px;
+}
+
+footer .contact-us {
+    text-align: right;
+}
+
+footer .PRIVACY {
+    text-align: right;
+    padding-left: 1000px;
+    padding-top: 20px;
+    text-decoration: none;
+}

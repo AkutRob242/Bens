@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f5efef;
+    color: black;
+    --color1:#fa1eb1;
+    --color: green;
+    --color: yellowgreen;
+    --color: blue;
+    --color: orange;
+    font-size: 1.5rem;
+    height: 150vh;
+    display: grid;
+    place-items: center;
+}
+
+/* HEADER */
+header {
+  position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: hsl(50, 100%, 52%);
+    top: 0;
+    width: 1300px;
+    margin-top: 0;
+
+  }
+  
+  .logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(201, 33, 33); /* Pinkish color for the logo */
+    font-family:cursive;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    flex-wrap: wrap;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #fa5290;
+  }
+
+  .fa-facebook{
+    font-size: 30px;
+    margin: 0 0 0 20px;
+    color: black;
+  }
+
+  .fa-facebook:hover{
+    color: #fa5290;
+  }
+
+
+
+.container{
+
+    width: 200px;
+    height: 250px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    animation: rotate3d 20s linear infinite;
+
+    div{
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform-style: preserve-3d;
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
+        transition: transform 1s;
+        
+        span{
+            width: 200px;
+            height: 350px;
+            background-color: black;
+            font-size: 10rem;
+            color: white;
+            display: grid;
+            place-items: center;
+            font-weight: 600;
+            text-shadow: 10px 10p 20px crimson;
+            border-radius: 24px;
+            box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+        }
+    }
+}
+
+@keyframes rotate3d {
+    from{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    to{
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+
+img {
+    height: 350px;
+    width: 200px;
+}
+
+
+
+.cart{
+  font-size: 50px;
+  margin: 100px 0 0 0px;
+  color: black;
+}
+
+.fa-cart-shopping:hover{
+  color: #fa5290;
+}

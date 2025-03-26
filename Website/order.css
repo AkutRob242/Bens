@@ -1,0 +1,148 @@
+/* GLOBAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  body {
+    background-color: white;
+    color: #333;
+  }
+  
+  /* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: hsl(50, 100%, 52%);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(201, 33, 33); /* Pinkish color for the logo */
+  font-family:cursive;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin-left: 20px;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #fa5290;
+}
+
+.fa-facebook{
+  font-size: 30px;
+  margin: 0 0 0 20px;
+  color: black;
+}
+
+.fa-facebook:hover{
+  color: #fa5290;
+}
+
+
+  /* Black Donut */
+  .container {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.circle img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+
+}
+
+.content{
+  max-width: 600px;
+  align-items: center;
+  align-content: center;
+}
+
+
+.content h1 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+
+.content p {
+    margin: 10px 0 20px;
+    line-height: 1.6;
+}
+
+.content a{
+    background-color: #0b4b8b;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.context a:hover {
+    background-color: #4480db;
+}
+
+
+
+
+
+
+
+  /* Footer */
+footer {
+    background-color: #ffcc00;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  footer h2, footer h3, footer p {
+    color: #a00000;
+    padding: 5px;
+  }
+  
+  footer .contact-us {
+    text-align: right;
+  }
+  
+  footer .PRIVACY {
+    text-align: right;
+    padding-left: 1000px;
+    padding-top: 20px;
+    text-decoration: none;
+  }

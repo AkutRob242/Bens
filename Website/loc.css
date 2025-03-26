@@ -1,0 +1,127 @@
+/* GLOBAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  body {
+    background-color: white;
+    color: #333;
+  }
+  
+  /* HEADER */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: hsl(50, 100%, 52%);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+  
+  }
+  
+  .logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(201, 33, 33); /* Pinkish color for the logo */
+    font-family:cursive;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+  
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #fa5290;
+  }
+  
+  .fa-facebook{
+    font-size: 30px;
+    margin: 0 0 0 20px;
+    color: black;
+  }
+  
+  .fa-facebook:hover{
+    color: #fa5290;
+  }
+
+
+.frame{
+  flex-shrink: 5;
+}
+
+
+.map{
+  flex-wrap: nowrap;
+  flex-shrink: 5;
+}
+
+
+.map img{
+    height: 700px;
+    width: 1300px;
+    padding-top: 1px;
+    flex-wrap: nowrap;
+  flex-shrink: 5;
+
+}
+
+.map .ss{
+    position: absolute;
+    height: 531px;
+    width: 575px;
+    left: 51%;
+    bottom: -16%;
+    flex-wrap: nowrap;
+  flex-shrink: 5;
+  
+}
+
+
+
+
+  /* Footer */
+footer {
+    background-color: #ffcc00;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  footer h2, footer h3, footer p {
+    color: #a00000;
+    padding: 5px;
+  }
+  
+  footer .contact-us {
+    text-align: right;
+  }
+  
+  footer .PRIVACY {
+    text-align: right;
+    padding-left: 1000px;
+    padding-top: 20px;
+    text-decoration: none;
+  }

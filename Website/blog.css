@@ -1,0 +1,430 @@
+/* GLOBAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f5efef;
+    color: #333;
+  }
+  
+  /* HEADER */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: hsl(50, 100%, 52%);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+
+  }
+  
+  .logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(201, 33, 33); /* Pinkish color for the logo */
+    font-family:cursive;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+    display: flex;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-weight: bold;
+    display: flex;
+  }
+  
+  nav ul li a:hover {
+    color: #fa5290;
+  }
+
+  .fa-facebook{
+    font-size: 30px;
+    margin: 0 0 0 20px;
+    color: black;
+  }
+
+  .fa-facebook:hover{
+    color: #fa5290;
+  }
+
+  
+  
+  /* HERO SECTION */
+  .hero {
+    display: flex;
+    flex-wrap: wrap; /* Allows hero text and image to stack on smaller screens */
+    background: #ffdd3c; /* Pink background */
+    padding: 50px 5%;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  .hero-text {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    margin-right: 20px;
+  }
+  
+  .hero-text h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    color: #fff;
+    margin-bottom: 20px;
+    text-shadow:rgb(235, 55, 160) 1px 1px 1px;
+    font-family:cursive;
+  }
+
+
+  
+  .hero-text p {
+    font-size: 1.2rem;
+    color: rgb(201, 33, 33);
+    margin-bottom: 30px;
+  }
+  
+  
+  
+  .hero-image {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-image img {
+    width: 50%;
+    max-width: 400px;
+
+  }
+
+
+
+/* Logo */
+.promo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  margin: 100px 0 100px 0;
+
+}
+
+
+.promo-text img {
+  width: 450px;
+  height: 220px;
+  border-radius: 10px;
+}
+
+.logo-display h1 {
+  color: #a00000;
+  font-size: 80px;
+  background-color: #ffcc00;
+  padding: 20px;
+  border-radius: 1px 20px;
+}
+
+
+
+  
+  /* WE SERVE SECTION */
+  .we-serve {
+    text-align: center;
+    padding: 50px 5%;
+    background-color: #f5efef;
+  }
+  
+  .we-serve h2 {
+    font-size: 2rem;
+    color: #ffcc00;
+    margin-bottom: 30px;
+  }
+  
+  .cards {
+    /* Display cards in a row */
+    display: flex;
+    /* Prevent wrapping for a strict horizontal line (optional) */
+    flex-wrap: wrap;
+    /* Horizontal gap between cards */
+    gap: 30px;
+    /* Center horizontally */
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    width: 300px;
+    min-height: 380px; /* Adjust based on your content */
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    flex-shrink: 0; /* Ensures the card doesn't shrink when flex container is narrow */
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+    color: #ffcc00;
+  }
+  
+  .card p {
+    color: #666;
+    font-size: 0.95rem;
+  }
+
+  
+
+
+/* Black Donut */
+
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.circle img{
+    background-color: #d32f2f;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+/* Menu Section */
+.mind {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+.content {
+    max-width: 600px;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.content h3 {
+    color: #b71c1c;
+
+}
+
+.content h1 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.content p {
+    margin: 10px 0 20px;
+    line-height: 1.6;
+}
+
+.content a{
+    background-color: #0b4b8b;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.context a:hover {
+    background-color: #4480db;
+}
+
+
+.mind .content{
+  max-width: 900px;
+  padding-left: 40%;
+  margin: 50px 0 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+/* Doing business the sweet way */
+.containe {
+  max-width: 1100px;
+  max-height: 800px;
+  margin: 50px auto;
+  text-align: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+
+
+}
+
+
+.cont {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+
+.ima {
+  width: 500px;
+  height:500px;
+  background-image: url(ss.jpg);
+  background-size: cover;
+  background-position: center;
+  flex-grow: 5;
+}
+
+.te{
+  flex-shrink: 5;
+  flex-wrap: wrap;
+  max-width: 600px;
+  max-height:800px;
+}
+
+
+.te h1{
+  margin-bottom: 20px;
+  margin-top: 0px;
+  font-size: 2.2em;
+  color: black;
+  
+}
+
+.te p {
+  margin: 0px 50px 100px 50px;
+  line-height: 1.4;
+  color: #333;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  text-align: left;
+}
+
+
+/* Experience */
+.co {
+  max-width: 900px;
+  margin: 50px auto;
+  text-align: center;
+  
+}
+
+.co h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.conte {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.car {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 400px;
+  margin: 10px;
+  text-align: left;
+}
+
+.car img {
+  width: 100%;
+  height: 400px;
+}
+
+.car h2 {
+  font-size: 1.2em;
+  margin: 15px;
+  color: #333;
+}
+
+.car p {
+  margin: 0 15px 15px 15px;
+  color: #666;
+  line-height: 1.5;
+}
+
+
+
+/* Footer */
+footer {
+  background-color: #ffcc00;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer h2, footer h3, footer p {
+  color: #a00000;
+  padding: 5px;
+}
+
+footer .contact-us {
+  text-align: right;
+}
+
+footer .PRIVACY {
+  text-align: right;
+  padding-left: 1000px;
+  padding-top: 20px;
+  text-decoration: none;
+}
